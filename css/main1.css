@@ -2,6 +2,15 @@
   margin: 0;
   padding: 0;
 }
+@font-face {
+    font-family: 'Segoe UI Regular';
+    src: url('SegoeUI.eot');
+    src: url('SegoeUI.eot?#iefix') format('embedded-opentype'),
+    url('SegoeUI.woff') format('woff'),
+    url('SegoeUI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
 body {
   width: 100%;
 }
@@ -16,6 +25,7 @@ body {
   text-align: right;
   line-height: 28px;
   font-size: 12px;
+  font-family: 'Segoe UI Regular';
 }
 .head li{
   display: inline;
@@ -56,8 +66,7 @@ body {
   float: left;
 }
 .img_books{
-  padding-top: 20px;
-  padding-bottom: 18px;
+  padding-top: 19px;
   padding-left: 12px;
 }
 .search{
@@ -78,9 +87,13 @@ input{
   height: 40px;
 }
 .search_bac{
+  height: 40px;
   background: #79b260;
   color: white;
-  font-size: 20.8px;
+  font-size: 18px;
+  padding: 10px;
+  position: relative;
+  top: 9.7px;
 }
 .img_search{
   float: left;
@@ -99,6 +112,8 @@ button{
   color: white;
   border: 1px solid #3f3f3f;
   border-radius: 3px;
+  padding: 6px;
+  font-size: 12px;
 }
 .img_basket{
   padding-top: 24px;
@@ -122,6 +137,7 @@ small{
 b{
   color: #6d6d6d;
   padding-left: 57px;
+  fo
 }
 
 
@@ -170,6 +186,7 @@ b{
   display: block;
   line-height: 40px;
   text-align: center;
+  font-family: 'Segoe UI Regular';
 }
 .cotegory li{
   display: inline;
