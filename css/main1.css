@@ -91,9 +91,10 @@ input{
   background: #79b260;
   color: white;
   font-size: 18px;
-  padding: 10px;
+  padding: 8px;
   position: relative;
-  top: 9.7px;
+  bottom: -8px;
+  font-family: 'Segoe UI Regular';
 }
 .img_search{
   float: left;
@@ -112,8 +113,9 @@ button{
   color: white;
   border: 1px solid #3f3f3f;
   border-radius: 3px;
-  padding: 6px;
+  padding: 5px;
   font-size: 12px;
+  font-family: 'Segoe UI Regular';
 }
 .img_basket{
   padding-top: 24px;
@@ -130,6 +132,7 @@ p{
   float: left;
   padding-left: 9px;
   font-size: 16px;
+  font-family: 'Segoe UI Regular';
 }
 small{
   font-size: 12px;
@@ -160,6 +163,7 @@ b{
   padding-top: 1px;
   padding-bottom: 28px;
   font-size: 20;
+  font-family: 'Segoe UI Regular';
 }
 .clear1{
   clear: both;
