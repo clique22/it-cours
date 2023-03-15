@@ -3,6 +3,15 @@
   padding: 0;
 }
 @font-face {
+    font-family: 'Segoe UI Bold';
+    src: url('SegoeUI-Bold.eot');
+    src: url('SegoeUI-Bold.eot?#iefix') format('embedded-opentype'),
+    url('SegoeUI-Bold.woff') format('woff'),
+    url('SegoeUI-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
     font-family: 'Segoe UI Regular';
     src: url('SegoeUI.eot');
     src: url('SegoeUI.eot?#iefix') format('embedded-opentype'),
@@ -60,7 +69,7 @@ body {
 .books{
   width: 191px;
   height: 111px;
-  background: #f5f5f5;
+  background:#f5f5f5;
   border-bottom: 1px solid #cecece;
   margin: auto;
   float: left;
@@ -123,9 +132,6 @@ button{
   float: left;
   padding-bottom: 9px;
 }
-.clear_basket{
-  clear: both;
-}
 p{
   color: #6d6d6d;
   padding-top: 30px;
@@ -140,7 +146,6 @@ small{
 b{
   color: #6d6d6d;
   padding-left: 57px;
-  fo
 }
 
 
@@ -152,6 +157,7 @@ b{
   margin: auto;
   float: left;
   color: #6d6d6d;
+  position: relative;
 }
 .img_звездочка{
   padding-left: 48px;
@@ -195,4 +201,99 @@ b{
 .cotegory li{
   display: inline;
   padding: 0 21px;
+}
+.pos{
+  width: 28px;
+  height: 16px;
+  color: white;
+  background: #79b260;
+  position: absolute;
+  top: 60px;
+  left: 68px;
+  font-family: 'Segoe UI Regular';
+  border-radius: 10px;
+  line-height: 16px;
+  text-align: center;
+}
+.div3{
+  width: 100%;
+  height: 331px;
+  background: #ffffff;
+}
+.block3{
+  width: 1024px;
+  height: 331px;
+  background: black;
+  margin: auto;
+}
+.wanted{
+  width: 714px;
+  height: 304px;
+  margin: auto;
+  background: red;
+  float: left;
+  margin-top: 14px;
+  margin-left: 12px;
+}
+.deal{
+  width: 269px;
+  height: 304px;
+  margin: auto;
+  background: green;
+  float: left;
+  margin-top: 14px;
+   margin-left: 13px;
+}
+.div4{
+  width: 100%;
+  height: 890px;
+}
+.block4{
+  width: 1024px;
+  height: 890px;
+  background: blue;
+  margin: auto;
+}
+.categ{
+  width: 190px;
+  height: 866px;
+  background: pink;
+  float: left;
+  margin-left: 12px;
+  border: 1px solid #d6d6d6;
+}
+.div5{
+  width: 100%;
+  height: 354px;
+  background: #444644;
+}
+.block5{
+  width: 1024px;
+  height: 354px;
+  margin: auto;
+  background: #444644;
+}
+.div6{
+  width: 100%;
+  height: 97px;
+  background: #2f2d2f;
+  border-bottom: 1px solid #565354;
+}
+.block6{
+  width: 1024px;
+  height: 97px;
+  margin: auto;
+  background: #2f2d2f;
+  border-bottom: 1px solid #565354;
+}
+.div7{
+  width: 100%;
+  height: 49px;
+  background: #2f2d2f;
+}
+.block7{
+  width: 1024px;
+  height: 49px;
+  margin: auto;
+  background: #2f2d2f;
 }
