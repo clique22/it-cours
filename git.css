@@ -1,7 +1,6 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI Regular';
 }
 @font-face {
     font-family: 'Segoe UI Bold';
@@ -34,7 +33,7 @@ body {
   float: right;
   text-align: right;
   line-height: 28px;
-  font-size: 16px;
+  font-size: 12px;
   font-family: 'Segoe UI Regular';
 }
 .head li{
@@ -100,39 +99,32 @@ input{
   height: 40px;
   background: #79b260;
   color: white;
-  font-size: 23px;
-  padding: 5px;
+  font-size: 18px;
+  padding: 8px;
   position: relative;
-  bottom: -5px;
+  bottom: -8px;
   font-family: 'Segoe UI Regular';
-  border-radius: 3px;
-  margin-left: -3px;
 }
 .img_search{
   float: left;
   height: 40px;
 }
 .basket{
-  width: 241px;
+  width: 242px;
   height: 111px;
   background: #f5f5f5;
   border-bottom: 1px solid #cecece;
   margin: auto;
   float: left;
-  border-right: 1px solid #c5c5c5;
 }
 button{
   background: #3f3f3f;
   color: white;
+  border: 1px solid #3f3f3f;
   border-radius: 3px;
-  padding-left: 7px;
-  padding-top: 2px;
-  padding-right: 7px;
-  padding-bottom: 5px;
-  font-size: 15px;
+  padding: 5px;
+  font-size: 12px;
   font-family: 'Segoe UI Regular';
-  margin-left: 12px;
-  margin-bottom: 2px;
 }
 .img_basket{
   padding-top: 24px;
@@ -140,18 +132,12 @@ button{
   float: left;
   padding-bottom: 9px;
 }
-.basket p{
+p{
   color: #6d6d6d;
   padding-top: 30px;
   float: left;
   padding-left: 9px;
   font-size: 16px;
-  font-family: 'Segoe UI Regular';
-}
-.favorit p{
-  color: #6d6d6d;
-  float: left;
-  font-size: 21px;
   font-family: 'Segoe UI Regular';
 }
 small{
@@ -160,12 +146,11 @@ small{
 b{
   color: #6d6d6d;
   padding-left: 57px;
-  font-size: 27px;
 }
 
 
 .favorit{
-  width: 131px;
+  width: 133px;
   height: 111px;
   background: #f5f5f5;
   border-bottom: 1px solid #cecece;
@@ -176,13 +161,14 @@ b{
 }
 .img_звездочка{
   padding-left: 48px;
+  padding-bottom: 8px;
   padding-top: 34px;
 }
 .list{
   padding-left: 23px;
   padding-top: 1px;
   padding-bottom: 28px;
-  font-size: 21px;
+  font-size: 20;
   font-family: 'Segoe UI Regular';
 }
 .clear1{
@@ -214,21 +200,19 @@ b{
 }
 .cotegory li{
   display: inline;
-  padding: 7px 16px;
-  font-size: 19px;
+  padding: 0 21px;
 }
 .pos{
-  width: 23px;
-  height: 13px;
+  width: 28px;
+  height: 16px;
   color: white;
   background: #79b260;
   position: absolute;
-  top: 58px;
-  left: 84px;
+  top: 60px;
+  left: 68px;
   font-family: 'Segoe UI Regular';
-  font-size: 13px;
-  border-radius: 20px;
-  line-height: 13px;
+  border-radius: 10px;
+  line-height: 16px;
   text-align: center;
 }
 .div3{
@@ -239,7 +223,7 @@ b{
 .block3{
   width: 1024px;
   height: 331px;
-  background: white;
+  background: black;
   margin: auto;
 }
 .wanted{
@@ -250,15 +234,6 @@ b{
   float: left;
   margin-top: 14px;
   margin-left: 12px;
-  position: relative;
-}
-.child{
-  position:absolute;
-  top: 0;
-  left: 0;
-  margin-left: 60px;
-  margin-top: 41px;
-  height: 228px;
 }
 .deal{
   width: 269px;
@@ -267,30 +242,8 @@ b{
   background: green;
   float: left;
   margin-top: 14px;
-  margin-left: 13px;
-  position: relative;
+   margin-left: 13px;
 }
-.p1{
-  position: absolute;
-  top: 20px;
-  left: 56px;
-  margin: auto;
-  text-align: center;
-  color: white;
-  font-family: 'Segoe UI Regular';
-  font-size: 27px;
-}
-.p2{
-  position: absolute;
-  top: 49px;
-  left: 67px;
-  margin: auto;
-  text-align: center;
-  color: white;
-  font-family: 'Segoe UI Regular';
-  font-size: 15px;
-}
-
 .div4{
   width: 100%;
   height: 890px;
@@ -298,13 +251,13 @@ b{
 .block4{
   width: 1024px;
   height: 890px;
-  background: white;
+  background: blue;
   margin: auto;
 }
 .categ{
   width: 190px;
   height: 866px;
-  background: white;
+  background: pink;
   float: left;
   margin-left: 12px;
   border: 1px solid #d6d6d6;
@@ -343,11 +296,4 @@ b{
   height: 49px;
   margin: auto;
   background: #2f2d2f;
-}
-.education{
-  width: 134px;
-  height: inherit;
-  background: #83c168;
-  color: white;
-  padding: 10px 16px;
 }
