@@ -107,6 +107,20 @@ body {
   float: left;
   padding-bottom: 9px;
 }
+.check{
+  background: #3e3e3e;
+  font-size: 15px;
+  border-radius: 4px;
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  position: relative;
+  top: -11px;
+  left: 9px;
+  cursor: pointer;
+}
 .basket p{
   color: #6d6d6d;
   padding-top: 21px;
