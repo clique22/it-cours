@@ -206,6 +206,14 @@ b{
   padding: 8px 16px;
   font-size: 19px;
 }
+.cotegory li:hover{
+  background: #85c369;
+}
+.cotegory li a{
+  color: #5b5b5b;
+  text-decoration: none;
+}
+
 .pos{
   width: 23px;
   height: 13px;
@@ -333,13 +341,7 @@ b{
   margin: auto;
   background: #2f2d2f;
 }
-.education{
-  width: 134px;
-  height: inherit;
-  background: #83c168;
-  color: white;
-  padding: 10px 16px;
-}
+
 .sear{
   float: left;
   background: #79b260;
