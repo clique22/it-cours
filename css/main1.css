@@ -408,31 +408,31 @@ b{
   padding-bottom: 4px;
   cursor: pointer;
 }
-.q{
+.form_search{
   background: #79b260;
   margin-top: 37px;
   border-radius: 3px;
 }
-.w{
+.input_search{
   border: 3px solid #79b260;
   border-radius: 3px;
   height: 40px;
   width: 338px;
   float: left;
 }
-.e{
+.button_search{
   position: relative;
   background: #79b260;
   border: 1px;
   display: block;
 }
-.r{
+.img_search{
   position: absolute;
   height: 24px;
   left: 3px;
   top: 7px;
 }
-.t{
+.span_search{
   color: white;
   font-size: 23px;
   cursor: pointer;
