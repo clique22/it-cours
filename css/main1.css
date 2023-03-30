@@ -159,13 +159,6 @@ b{
   padding-left: 48px;
   padding-top: 34px;
 }
-.list{
-  padding-left: 23px;
-  padding-top: 1px;
-  padding-bottom: 28px;
-  font-size: 21px;
-  font-family: 'Segoe UI Regular';
-}
 .clear1{
   clear: both;
 }
@@ -430,137 +423,80 @@ b{
   padding: 3px 0px 4px 35px;
   display: block;
 }
+.categ{
+  width: 190px;
+  height: 866px;
+  background: white;
+  float: left;
+  margin-left: 12px;
+  border: 1px solid #d6d6d6;
+}
+.ull{
+  list-style: none;
+}
 .hcateg{
+  height: 42px;
   font-size: 24px;
   color: #6b6969;
-  height: 42px;
   cursor: pointer;
-}
-.hcateg:hover{
-  background: #85c369;
-  color: white;
 }
 .hcateg p{
   padding-left: 18px;
 }
+.hcateg:hover{
+  background: #7eb964;
+  color: white;
+}
 .hnav{
-  font-size: 17px;
   height: 29px;
+  font-size: 17px;
+  font-weight: bold;
   color: #6b6969;
   cursor: pointer;
 }
 .hnav p{
   padding-left: 20px;
-  font-weight: bold;
-  color:
 }
 .hnav:hover{
-  background: #85c369;
+  background: #7eb964;
   color: white;
 }
-.nav{
+.list{
+  margin-bottom: 7px;
+}
+.list p{
+  color: #6b6969;
   font-size: 17px;
-  color: #6b6969;
-  font-weight: bold;
-  height: 29px;
   cursor: pointer;
-}
-.nav:hover{
-  background: #85c369;
-  color: white;
-}
-.categ ul{
-  list-style-type: none;
-  font-size: 15px;
-  color: #6b6969;
-  line-height: 25px;
-  margin-bottom: 8px;
-}
-.categ ul li:hover{
-  background: #85c369;
-  color: white;
-}
-.nav p{
   padding-left: 21px;
+  height: 29px;
+  font-weight: bold;
 }
-.categ ul li{
-  padding-left: 24px;
+.list p:hover{
+  background: #7eb964;
+  color: white;
+}
+.ul{
+  color: #898787;
+  font-size: 15px;
   cursor: pointer;
+  list-style: none;
+  line-height: 25px;
 }
-.categ ul li a{
+.ul a{
+  text-decoration: none;
+  color: #898787;
   display: block;
   border-bottom: 1px solid #e6e7e8;
   width: 139px;
 }
-.content{
-  width: 795px;
-  height: 827px;
-  float: left;
-  border: 1px solid #d8dce0;
-  margin-left: 7px;
-  position: relative;
+.ul li:hover{
+  background: #7eb964;
+  color: white;
 }
-.best{
-  width: 569px;
-  height: 39px;
-  border-top: 1px solid #d8dce0;
-  float: left;
-  margin-left: 7px;
-  background: #e4e4e4;
-  border-right: 1px solid #d8dce0;
+.ul a:hover{
+  color: white;
 }
-.best ul{
-  background: #f3f3f3;
-  color: #6b6969;
-  list-style: none;
-  display: block;
-  line-height: 39px;
-  text-align: left;
-  font-size: 18px;
-  border-left: 1px solid #ced3d6;
-}
-.best ul li{
-  display: inline;
-  padding: 8px 20px;
-  cursor: pointer;
-}
-.best ul li:hover{
-  background: white;
-  color: #464646;
-}
-.best ul li:not(:last-child){
-  border-right: 1px solid #ced3d6;
-}
-.books1{
-  margin-left: 24px;
-  margin-top: 20px;
-  float: left;
-}
-.books2{
-  margin-left: 41px;
-  margin-top: 24px;
-  float: left;
-}
-.books3{
-  margin-left: 54px;
-  margin-top: 11px;
-  float: left;
-}
-.books4{
-  margin-left: 42px;
-  margin-top: 25px;
-  float: left;
-}
-.books5{
-  margin-left: 57px;
-  margin-top: 25px;
-  float: left;
-}
-.books6{
-  margin-left: 24px;
-  margin-top: 30px;
-  float: left;
-  position: absolute;
-  left: 0;
-  top: 311px;
+.ul li{
+  padding-left: 24px;
 }
