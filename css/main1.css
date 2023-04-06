@@ -530,7 +530,7 @@ b{
   font-size: 17px;
   cursor: pointer;
   padding-top: 8px;
-  padding-bottom: 11px;
+  padding-bottom: 10.5px;
   padding-left: 25px;
   padding-right: 21.2px;
   border-right: 1px solid #d8dce0;
@@ -816,4 +816,26 @@ b{
   border-left: 1px solid #e0e0e0;
   border-right: 1px solid #e0e0e0;
   border-bottom: 4px solid #81bd66;
+}
+.biography{
+  margin-left: 28px;
+  color: #dddddd;
+  width: fit-content;
+}
+.biography ul{
+  list-style: none;
+  margin-top: 18px;
+  line-height: 21px;
+}
+.biography ul a{
+  color: #8a8a89;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #575755;
+  width: 172px;
+  font-size: 13px;
+}
+.biography p{
+  padding-top: 20px;
+  font-size: 19px;
 }
