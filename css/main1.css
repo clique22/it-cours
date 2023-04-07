@@ -539,264 +539,54 @@ b{
   background: white;
   color: #464646;
 }
+.line{
+  width: 795px;
+  height: 15px;
+}
 .con_books{
   width: 795px;
   height: 826px;
   position: relative;
 }
-.books_con{
+.book{
+  float: left;
+  width: 128px;
+  height: 250px;
+  position: relative;
+  margin-left: 24px;
+  margin-top: 5px;
+}
+.book p{
+  margin-top: -4px;
+  font-size: 15px;
+  text-align: center;
+  color: #6f6f6f;
+}
+.book h1{
+  font-size: 21px;
+  text-align: center;
+  color: #f05356;
+}
+.discount{
   position: absolute;
-  left: 15px;
-  top: 16px;
+  top: 0;
+  left: 75px;
 }
 .sale{
   position: absolute;
-  top: 20px;
-  left: 90px;
+  top: 5px;
+  left: 82px;
 }
-.s_off{
-  position: absolute;
-  left: 98px;
-  top: 24px;
+.sale h2{
   color: white;
-}
-.s_30{
   font-size: 19px;
-  font-weight: bold;
+  text-align: center;
 }
-.off{
+.sale p{
+  color: white;
   font-size: 13px;
-  padding-left: 7px;
-  padding-top: 2px;
-  margin-top: -5px;
-}
-.books_con2{
-  position: absolute;
-  left: 172px;
-  top: 16px;
-}
-.books_con3{
-  position: absolute;
-  left: 334px;
-  top: 16px;
-}
-.sale1{
-  position: absolute;
-  top: 20px;
-  left: 417px;
-}
-.s_off1{
-  position: absolute;
-  left: 425px;
-  top: 24px;
-  color: white;
-}
-.books_con4{
-  position: absolute;
-  left: 500px;
-  top: 16px;
-}
-.books_con5{
-  position: absolute;
-  left: 665px;
-  top: 16px;
-}
-.books_con6{
-  position: absolute;
-  left: 15px;
-  top: 272px;
-}
-.books_con7{
-  position: absolute;
-  left: 172px;
-  top: 272px;
-}
-.books_con8{
-  position: absolute;
-  left: 334px;
-  top: 272px;
-}
-.sale2{
-  position: absolute;
-  left: 417px;
-  top: 269px;
-}
-.s_off2{
-  position: absolute;
-  left: 425px;
-  top: 274px;
-  color: white;
-}
-.books_con9{
-  position: absolute;
-  left: 500px;
-  top: 272px;
-}
-.books_con10{
-  position: absolute;
-  left: 665px;
-  top: 272px;
-}
-.books_con11{
-  position: absolute;
-  left: 15px;
-  top: 525px;
-}
-.books_con12{
-  position: absolute;
-  left: 172px;
-  top: 525px;
-}
-.books_con13{
-  position: absolute;
-  left: 334px;
-  top: 525px;
-}
-.books_con14{
-  position: absolute;
-  left: 500px;
-  top: 525px;
-}
-.books_con15{
-  position: absolute;
-  left: 665px;
-  top: 525px;
-}
-.sale3{
-  position: absolute;
-  left: 580px;
-  top: 521px;
-}
-.s_off3{
-  position: absolute;
-  left: 587px;
-  top: 525px;
-  color: white;
-}
-.price1{
-  position: absolute;
-  left: 32px;
-  top: 197px;
-  font-size: 15px;
   text-align: center;
-  color: #7a7a7a;
-}
-.con_books h1{
-  font-size: 21px;
-  color: #f05356;
-}
-.price2{
-  position: absolute;
-  left: 199px;
-  top: 197px;
-  font-size: 15px;
-  text-align: center;
-  color: #7a7a7a;
-}
-.price3{
-  position: absolute;
-  left: 350px;
-  top: 197px;
-  font-size: 15px;
-  text-align: center;
-  color: #7a7a7a;
-}
-.price4{
-  position: absolute;
-  left: 516px;
-  top: 197px;
-  font-size: 15px;
-  text-align: center;
-  color: #7a7a7a;
-}
-.price5{
-  position: absolute;
-  left: 676px;
-  top: 197px;
-  font-size: 15px;
-  text-align: center;
-  color: #7a7a7a;
-}
-.price6{
-  position: absolute;
-  left: 32px;
-  top: 453px;
-  font-size: 15px;
-  text-align: center;
-  color: #7a7a7a;
-}
-.price7{
-  position: absolute;
-  left: 199px;
-  top: 453px;
-  font-size: 15px;
-  text-align: center;
-  color: #7a7a7a;
-}
-.price8{
-  position: absolute;
-  left: 350px;
-  top: 453px;
-  font-size: 15px;
-  text-align: center;
-  color: #7a7a7a;
-}
-.price9{
-  position: absolute;
-  left: 516px;
-  top: 453px;
-  font-size: 15px;
-  text-align: center;
-  color: #7a7a7a;
-}
-.price10{
-  position: absolute;
-  left: 676px;
-  top: 453px;
-  font-size: 15px;
-  text-align: center;
-  color: #7a7a7a;
-}
-.price11{
-  position: absolute;
-  left: 32px;
-  top: 706px;
-  font-size: 15px;
-  text-align: center;
-  color: #7a7a7a;
-}
-.price12{
-  position: absolute;
-  left: 199px;
-  top: 706px;
-  font-size: 15px;
-  text-align: center;
-  color: #7a7a7a;
-}
-.price13{
-  position: absolute;
-  left: 350px;
-  top: 706px;
-  font-size: 15px;
-  text-align: center;
-  color: #7a7a7a;
-}
-.price14{
-  position: absolute;
-  left: 516px;
-  top: 706px;
-  font-size: 15px;
-  text-align: center;
-  color: #7a7a7a;
-}
-
-.price15{
-  position: absolute;
-  left: 676px;
-  top: 706px;
-  font-size: 15px;
-  text-align: center;
-  color: #7a7a7a;
+margin-top: -3px;
 }
 .page li{
   display: inline;
@@ -809,7 +599,7 @@ b{
 .page{
   position: absolute;
   right: 23px;
-  bottom: 5px;
+  bottom: 25px;
 }
 .page li:hover{
   border-top: 1px solid #e0e0e0;
