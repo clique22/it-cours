@@ -608,9 +608,9 @@ margin-top: -3px;
   border-bottom: 4px solid #81bd66;
 }
 .biography{
-  margin-left: 28px;
+  margin-left: 50px;
   color: #dddddd;
-  width: fit-content;
+  float: left;
 }
 .biography ul{
   list-style: none;
@@ -621,11 +621,35 @@ margin-top: -3px;
   color: #8a8a89;
   text-decoration: none;
   display: block;
-  border-bottom: 1px solid #575755;
-  width: 172px;
   font-size: 13px;
+  border-bottom: 1px solid #575755;
 }
 .biography p{
   padding-top: 20px;
   font-size: 19px;
+}
+.foot{
+  position: relative;
+}
+.foot p{
+  color: #d1d1d2;
+  text-align: center;
+  padding-top: 19px;
+  font-size: 19px;
+}
+.foot_img{
+  width: 139px;
+  height: 25px;
+  margin-left: 447px;
+  margin-top: 14px;
+}
+.foot_img img{
+  float: left;
+  padding-left: 4px;
+}
+.footer{
+  text-align: center;
+  font-size: 15px;
+  color: #a2a4a5;
+  padding-top: 14px;
 }
